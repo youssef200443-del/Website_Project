@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000000;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.logo {
+    width: 70px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00bcd4;
+    transform: scale(1.2);
+}
+.p{
+    width: 90%;
+    padding:0 0 15px 0;
+    margin: auto;
+}
+
+.cars-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cars-images img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+.info {
+    background-color: #000000;
+    margin: 20px 0px 20px 29%;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info h2{
+    color: #00bcd4;
+    text-align: center;
+}
+
+.info-h {
+color: #00bcd4;
+}
+
+.info ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.info li {
+    padding: 10px;
+    border-bottom:2px solid #444;
+}
+
+.login-box {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 12px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: #000000;
+    outline: none;
+    border-radius: 5px;
+}
+
+.select-box {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.select-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.select-box select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btns button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btns button[type="submit"] {
+    background-color: #00bcd4;
+    color: #000000;
+}
+
+.btns button[type="submit"]:hover {
+    background-color: #0097a7;
+}
+
+.reset {
+    background-color: #e53935;
+    color: #000000;
+}
+
+.reset:hover {
+    background-color: #c62828;
+}
